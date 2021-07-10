@@ -1,9 +1,9 @@
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
-  - [General Info](#general-info)
+- [General Info](#general-info)
 - [Technologies](#technologies)
 - [Installation](#installation)
-### General Info
+## General Info
 ***
 This project is a Node.js backend on a cafeteria, it has roles, users, categories, products, and its own authentication methods provided by google.
 ## Technologies
