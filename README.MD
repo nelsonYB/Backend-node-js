@@ -12,7 +12,6 @@ A list of technologies used within the project:
 * [Node.js](https://nodejs.org/en/): Version 15.6.1
 * [Express js](https://expressjs.com/): Version 4.17.1
 * [MongoDB](https://www.mongodb.com/): Version 3.6.17
-* 
 ## Installation
 ***
 A little intro about the installation. 
