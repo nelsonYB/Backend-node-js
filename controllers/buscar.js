@@ -62,7 +62,7 @@ const buscarProductos = async( termino = '', res = response) => {
 
     if( esMongoID ) {
         const producto = await Producto.findById(termino)
-                                .populate('categoria','nombre');
+                                .populate('categoria','nombre');//Populate sirve para mostrar mas información de la categoria
         return res.json({
             results: ( producto ) ? [ producto ] : []
         });
