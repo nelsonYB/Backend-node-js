@@ -16,7 +16,7 @@ A list of technologies used within the project:
 ***
 A little intro about the installation. 
 ```
-$ git clone https://github.com/nelsonYB/curso-node-restserver.git
+$ git clone https://github.com/nelsonYB/Backend-node-js
 $ cd ../path/to/the/file
 $ npm install
 $ npm start
