@@ -23,7 +23,6 @@ const existeUsuarioPorId = async(id) => {
 }
 
 // Validaciones de categorias
-
 const existeCategoriaPorId = async(id) => {
     const existeCategoria = await Categoria.findById(id);
     if ( !existeCategoria ){
@@ -40,10 +39,23 @@ const existeProductoPorId = async(id) => {
     }
 }
 
+// Validar colecciones permitidas
+const coleccionesPermitidas =  (coleccion = '', colecciones = []) => {
+
+    const incluida = colecciones.includes( coleccion );
+    if( !incluida ) {
+        throw new Error(`La coleccion ${ coleccion } no es permitida, [${ colecciones }]`);
+    }
+
+    return true;
+
+}
+
 module.exports = {
     esRoleValido,
     esEmailValido,
     existeUsuarioPorId,
     existeCategoriaPorId,
-    existeProductoPorId
+    existeProductoPorId,
+    coleccionesPermitidas
 }
