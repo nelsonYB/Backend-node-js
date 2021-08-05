@@ -5,7 +5,7 @@
 - [Installation](#installation)
 ## General Info
 ***
-This project is a Node.js backend on a cafeteria, it has roles, users, categories, products, and its own authentication methods provided by google.
+This project is a Node.js backend, it has roles, users, categories, products, and its own authentication methods provided by google.
 ## Technologies
 ***
 A list of technologies used within the project:
